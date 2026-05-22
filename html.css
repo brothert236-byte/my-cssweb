@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sayed Nur Parvez CV</title>
+    <style>
+    *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            background: linear-gradient(to right, #111111, #1e1e1e);
+            color:white;
+            font-family: Arial, sans-serif;
+            padding:30px;
+            line-height:1.8;
+        }
+          .container{
+            max-width:900px;
+            margin:auto;
+            background:#1b1b1b;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0 0 20px rgba(0,255,255,0.3);
+        }
+        .header{
+            text-align:center;
+        }
+
+              .header img{
+            width:200px;
+            height:200px;
+            border-radius:50%;
+            border:5px solid cyan;
+            object-fit:cover;
+            margin-bottom:20px;
+            transition:0.5s;
+        }
+
+        .header img:hover{
+            transform:scale(1.05);
+        }
+
+        h1{
+        color:cyan;
+            margin-bottom:10px;
+            font-size:40px;
+        }
+
+        h2{
+        color:#00ffff;
+            margin-top:20px;
+            margin-bottom:15px;
+            border-left:5px solid cyan;
+            padding-left:10px;
+        }
+        h3{
+            color:cyan;
+        }
+        p {
+            margin-bottom:15px;
+            color:#dddddd;
+        }
+        ul,ol{
+            margin-left:30px;
+            margin-bottom:20px;
+                }
+
+        li {
+            margin-bottom:10px;
+        }
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+            margin-bottom:20px;
+        }
+        th{
+            background:cyan;
+            color:black;
+            padding:12px;
+        }
+
+        td{
+            border:1px solid gray;
+            padding:12px;
+            text-align:center;
+        }
+        tr:nth-child(even){
+            background:#222;
+        }
+        hr{
+            border:1px solid #333;
+            margin:25px 0;
+        }
+
+        .footer{
+            text-align:center;
+            margin-top:30px;
+        }
+        .contact p{
+            margin-bottom:10px;
+        }
+    </style>
+    </head>
+    <body>
+
+    <div class="container">
+
+
+        <div class="header">
+            <img src="IMG_20260507_093827.jpg.jpeg" alt="Parvez Image">
+            <h1>Assalamualaikum Everyone</h1>
+            <h3>I'm Sayed Nur Parvez</h3>
+
+            <p>
+                I am a student of Premier University in CSE Department.
+                My hometown is Chittagong.
+                I am also a content creator.
+            </p>
+
+        </div>
+        <hr>
+        <h2>About Me</h2>
+
+        <p>
+            Hello! My name is Sayed Nur Parvez.
+            I am passionate about programming and web development.
+            I love learning new technologies and creating creative content.
+        </p>
+
+        <hr>
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>Programmer</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Gaming</li>
+            <li>Content Creation</li>
+        </ul>
+        <hr>
+        <h2>Education</h2>
+
+        <table>
+            <tr>
+                <th>Institution</th>
+                <th>Department</th>
+            </tr>
+            <tr>
+                <td>Premier University</td>
+                <td>CSE</td>
+            </tr>
+
+        </table>
+        <hr>
+        <h2>Hobbies</h2>
+
+        <ol>
+            <li>Programming</li>
+            <li>Gaming</li>
+            <li>Watching Tech Videos</li>
+            <li>Creating Content</li>
+        </ol>
+
+        <hr>
+        <h2>Contact Information</h2>
+        <div class="contact">
+
+            <p><b>Email:</b> parvez@gmail.com</p>
+            <p><b>Phone:</b> 0123456789</p>
+            <p><b>Address:</b> Chittagong, Bangladesh</p>
+
+        </div>
+        <hr>
+        <div class="footer">
+
+            <h3>Thank You For Visiting My CV Website</h3>
+            </div>
+        </div>
+    </body>
+    </html>
